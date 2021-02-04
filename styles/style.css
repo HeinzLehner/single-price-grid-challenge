@@ -17,7 +17,7 @@ body {
   font-family: 'Karla', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: whitesmoke;
+  background-color: #E6EFF6;
 }
 
 a, a:hover, a:visited {
@@ -26,7 +26,7 @@ a, a:hover, a:visited {
 
 .container {
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 
 @media (max-width: 39.9375em) {
@@ -48,6 +48,8 @@ a, a:hover, a:visited {
       grid-template-rows: auto;
       grid-template-areas: "box-top box-top" "box-left box-right";
   overflow: hidden;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 39.9375em) {
